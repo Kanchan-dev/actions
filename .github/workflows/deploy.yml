@@ -17,3 +17,5 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: html
           REMOTE_DIR: var/www/html/tekuteku/actions/
+          METHOD: sftp
+          PORT: 22
