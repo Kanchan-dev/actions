@@ -18,3 +18,4 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           local-dir: ./
           server-dir: var/www/html/tekuteku/actions/
+          protocol: ftps
